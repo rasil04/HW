@@ -8,13 +8,13 @@ class SuperHero:
         self.health_points = health_points
         self.catchphrase = catchphrase
     def name(self):
-        return (f'Имя героя{self.name}')
+        return (f'Имя Героя{self.name}')
     def hp(self):
-        return (f'Здоровье героя {self.health_points *2}')
+        return (f'Здоровье Героя {self.health_points *2}')
     def __str__(self):
         return (f'Прозвище {self.nickname} \n'
                f'Суперспособность {self.superpower} \n'
-               f'Количество здоровья {self.health_points}')
+               f'Кол-во здоровья {self.health_points}')
     def __len__(self):
         return len(f'{self.catchphrase}')
 
